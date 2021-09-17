@@ -54,7 +54,7 @@ Join the channel to see more videos like this. [Bedimcode](https://www.youtube.c
 
   1. 在搜索框搜索想要的字体，比如该项目需要的 `popp`
 
-     ![](/01.png)
+     ![img01](/01.png)
 
   2. Select styles add you favour style
 
@@ -62,7 +62,7 @@ Join the channel to see more videos like this. [Bedimcode](https://www.youtube.c
 
      注意variables.css文件里的--body-font: 'Poppins', sans-serif;
 
-     ![](/02.png)
+     ![img02](/02.png)
 
 ### 什么是live Sass Compiler？
 
