@@ -70,7 +70,13 @@ Join the channel to see more videos like this. [Bedimcode](https://www.youtube.c
 >
 > 注意 vscode底部栏的 watching状态 判断文件是否success
 >
-> 我也是第一次接触这个，可能规范问题吧，顺便检测一波是否引入正确?
+> 我也是第一次接触这个，我觉得用法是把sass和scss文件打包编译成一个css文件，
+>
+> 注意要设置目录
+>
+> 需要配置savePath > https://www.cnblogs.com/ZerlinM/p/13632254.html
+
+把`asssets/scss/styles.scss` 集成文件打包到`assets/css/style.css` 而index.html引用的是后者
 
 
 
