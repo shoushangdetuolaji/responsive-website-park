@@ -1,6 +1,8 @@
 const inputs = document.querySelectorAll('.input-field')
 const toggleBtn = document.querySelectorAll('.toggle')
 const main = document.querySelector('main')
+const bullets = document.querySelectorAll('.bullets span')
+const images = document.querySelectorAll('.image')
 
 inputs.forEach(inp => {
   inp.addEventListener('focus', () => {
@@ -16,4 +18,23 @@ toggleBtn.forEach(btn => {
   btn.addEventListener('click', () => {
     main.classList.toggle('sign-up-mode')
   })
+})
+
+function moveSlider() {
+  let index = this.dataset.value
+  let currentImage = document.querySelector(`.img-${index}`)
+  const textSlider = document.querySelector('.text-group')
+
+  textSlider.style.transform = `translateY(${-(index - 1) * 2.2}rem)`
+
+  images.forEach(img => img.classList.remove('show'))
+  currentImage.classList.add('show')
+
+
+  bullets.forEach(bullet => bullet.classList.remove('active'))
+  this.classList.add('active')
+}
+
+bullets.forEach(bullet => {
+  bullet.addEventListener('click', moveSlider)
 })
