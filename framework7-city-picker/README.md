@@ -5,3 +5,7 @@ city-picker 使用了framework7的picker组件制作的mobile端城市级联选�
 - `regionsArray.json` 数组类型
 - `regionsObject.json` 对象类型
 - `regionsObject2.json` 对象类型扩展
+
+## 注意
+framework7版本不同，对应组件的Parameterss有所变动
+需要详细看文档 虽然是英文

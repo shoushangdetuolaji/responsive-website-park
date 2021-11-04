@@ -36,15 +36,11 @@
         city = getCity(regions, '广东省'),
         area = getArea(regions, '广东省', '广州市');
 
-    console.log(province);
-    console.log(city);
-    console.log(area);
-
     // 保存 picker选择的省
     var provinceSelect = '';
     var pickerLocation = myApp.picker({
         input: '#location',
-        rotateEffet: true,
+        rotateEffect: true,
         toolbarTemplate: `
             <div class="toolbar">
                 <div class="toolbar-inner">
